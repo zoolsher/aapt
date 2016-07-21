@@ -17,9 +17,11 @@ class Aapt {
                 break;
             case "win32":
                 //use windows
+                this.aaptPath = config['WIN32'];
                 break;
             case "linux":
                 //use linux
+                this.apptPath = config['LINUX'];
                 break;
         }        
     }
