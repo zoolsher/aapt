@@ -50,7 +50,7 @@ var Aapt = function () {
                     break;
                 case "linux":
                     //use linux
-                    this.apptPath = _config2.default['LINUX'];
+                    this.aaptPath = _config2.default['LINUX'];
                     break;
             }
         }
